@@ -1,6 +1,6 @@
 # Console Commands
 
-Make sure your computer is up to ate with atleast V16 of node.js, if not please visit: https://nodejs.org/ 
+Make sure your computer is up to date with atleast V16 of node.js, if not please visit: https://nodejs.org/ 
 
 In your editor please make sure you have the following downloaded:
 
