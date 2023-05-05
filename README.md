@@ -15,3 +15,6 @@ npm install discord.js (This will install the node modules folder and package-lo
 If you need other details like added functions:
 
 https://discordjs.guide/#before-you-begin
+
+
+Deploy Commands: node deploy-commands.js
