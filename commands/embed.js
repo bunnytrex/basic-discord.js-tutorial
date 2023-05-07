@@ -5,12 +5,10 @@ module.exports = {
         .setName('embed')
         .setDescription('Command Description'),
     async execute(interaction, client) {
-      // You can add functions
-
-            const commandEmbed = new EmbedBuilder()
+        const commandEmbed = new EmbedBuilder()
             .setTitle(`Title`)
-            .setColor('Random') //Colour Code
-//.setDescription(`Description`)
+            .setColor('RANDOM') // 'RANDOM' should be uppercase
+            //.setDescription(`Description`)
             .addFields(
                 { 
                     name: `Text`, 
@@ -18,9 +16,8 @@ module.exports = {
                     inline: false 
                 },
             )
-            .setTimestamp() //Tiimestamps it, remove line if needed.
-            .setFooter({ text: ``}); //Footer for the bottom of embed
-            return interaction.reply({ content: `Optional, remove content if not needed (Adds a message above embed).`, embeds: [commandEmbed]}, ephemeral: false });
-        }
+            .setTimestamp()
+            .setFooter({ text: ``});
+        return interaction.reply({ content: `Optional, remove content if not needed (Adds a message above embed).`, embeds: [commandEmbed], ephemeral: false });
     },
 };
