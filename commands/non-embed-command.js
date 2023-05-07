@@ -8,6 +8,6 @@ module.exports = {
       // You can add functions
         
             return interaction.reply({ content: `Text`, ephemeral: false });
-        }
+       
     },
 };
